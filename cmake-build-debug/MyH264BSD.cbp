@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyH264BSD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/liu/CLionProjects/MyH264BSD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/liu/CLionProjects/MyH264BSD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyH264BSD">
+				<Option output="/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/MyH264BSD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liu/CLionProjects/MyH264BSD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liu/CLionProjects/MyH264BSD/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyH264BSD"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyH264BSD/fast">
+				<Option output="/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/MyH264BSD" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/liu/CLionProjects/MyH264BSD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/liu/CLionProjects/MyH264BSD/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 MyH264BSD/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/liu/CLionProjects/MyH264BSD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/liu/CLionProjects/MyH264BSD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_byte_stream.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_byte_stream.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_cavlc.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_cavlc.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_conceal.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_conceal.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_deblocking.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_deblocking.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_decoder.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_decoder.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_dpb.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_dpb.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_image.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_image.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_inter_prediction.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_inter_prediction.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_intra_prediction.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_intra_prediction.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_macroblock_layer.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_macroblock_layer.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_nal_unit.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_nal_unit.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_neighbour.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_neighbour.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_pic_order_cnt.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_pic_order_cnt.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_pic_param_set.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_pic_param_set.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_reconstruct.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_reconstruct.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_sei.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_sei.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_seq_param_set.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_seq_param_set.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_slice_data.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_slice_data.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_slice_group_map.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_slice_group_map.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_slice_header.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_slice_header.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_storage.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_storage.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_stream.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_stream.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_transform.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_transform.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_util.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_util.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_vlc.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_vlc.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_vui.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/src/h264bsd_vui.h">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/test_h264bsd.c">
+			<Option target="MyH264BSD"/>
+		</Unit>
+		<Unit filename="/home/liu/CLionProjects/MyH264BSD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
